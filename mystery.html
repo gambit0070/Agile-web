@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mystery Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="mystery.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Mystery Page</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="practises.html">Practises</a></li>
+        <li><a href="cv.html">Author</a></li>
+        <li><a href="mystery.html" class="active">Mystery Page</a></li>
+      </ul>
+    </nav>
+    <div class="mode-toggle">
+      <label class="switch">
+        <input type="checkbox" id="modeToggle">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </header>
+  <main class="main-content">
+    <section id="mystery-section" class="intro-section">
+      <h2>Surprise</h2>
+      <div class="video-container">
+        <iframe
+          width="480"
+          height="360"
+          src="images/unknown.mp4"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p> 2025 Dmitry Prytkov.</p>
+  </footer>
+</body>
+</html>

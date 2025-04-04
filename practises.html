@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Development Best Practices</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Web Development Best Practices</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="practises.html" class="active">Practises</a></li>
+        <li><a href="cv.html">Author</a></li>
+        <li><a href="mystery.html">Mystery Page</a></li>
+      </ul>
+    </nav>
+    <div class="mode-toggle">
+      <label class="switch">
+        <input type="checkbox" id="modeToggle">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </header>
+  <main class="main-content">
+    <section class="intro-section">
+      <div class="intro-cards">
+        <div class="intro-card">
+          <img src="images/performance.png" alt="Performance Boost" class="intro-image" />
+          <h3>Performance Boost</h3>
+          <p>
+            By following these best practices, your website will load faster and run smoother, leading to higher user satisfaction and retention. Learn more about optimizing performance.
+          </p>
+        </div>
+        <div class="intro-card">
+          <img src="images/progress.png" alt="Progress Tracking" class="intro-image" />
+          <h3>Progress Tracking</h3>
+          <p>
+            With our tickbox feature, developers can easily track their implementation progress. This tool helps maintain focus and encourages continuous improvement in web development practices.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="cards-container">
+      <div class="card">
+        <h2 class="card-title">Semantic HTML Markup</h2>
+        <p class="card-description">
+          Using semantic tags (e.g. &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, &lt;footer&gt;) helps improve accessibility, SEO, and document structural clarity.
+        </p>
+        <a href="https://web.dev/learn/html/semantic-html" class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Responsive Design</h2>
+        <p class="card-description">
+          Developing layouts that display correctly on different devices and screens, from smartphones to desktops.
+        </p>
+        <a href="https://web.dev/learn/design/welcome?continue=https%3A%2F%2Fweb.dev%2Flearn%2Fdesign%3Fhl%3Den%23article-https%3A%2F%2Fweb.dev%2Flearn%2Fdesign%2Fwelcome" class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Accessibility</h2>
+        <p class="card-description">
+          Complying with WCAG standards, using ARIA attributes, and providing easy navigation for people with disabilities.
+        </p>
+        <a href="https://web.dev/learn/forms/accessibility?hl=en" class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Using Modern Standards</h2>
+        <p class="card-description">
+          Using HTML5, CSS3, and modern JavaScript capabilities (e.g. ES6+), which allows you to write more efficient and maintainable code.
+        </p>
+        <a href="https://webflow.com/blog/web-standards#:~:text=The%20W3C%20is%20an%20international%20committee%20made,develop%20internal%20standards%20and%20improve%20web%2Dbased%20technologies." class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Mobile First Approach</h2>
+        <p class="card-description">
+          Designing interfaces with mobile devices in mind first and foremost, which helps optimize performance and usability on small screens.
+        </p>
+        <a href="https://www.browserstack.com/guide/how-to-implement-mobile-first-design#:~:text=Mobile%2Dfirst%20design%20or%20Mobile,up%20to%20larger%20screen%20sizes." class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Cross-browser Compatibility</h2>
+        <p class="card-description">
+          Thorough testing and customization of the site for correct operation in all popular browsers (Chrome, Firefox, Edge, Safari).
+        </p>
+        <a href="https://www.freecodecamp.org/news/cross-browser-compatibility-testing-best-practices-for-web-developers/#:~:text=What%20is%20Cross%2DBrowser%20compatibility,the%20site%20using%20different%20browsers." class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Performance Optimization</h2>
+        <p class="card-description">
+          Minification and compression of CSS/JS, use of lazy loading of images, caching and optimization of queries to speed up page loading.
+        </p>
+        <a href="https://sematext.com/blog/improve-website-performance/#:~:text=Use%20Website%20Caching&text=Caching%20is%20the%20process%20of,the%20workload%20of%20the%20server." class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Modularity and Structuring of Code</h2>
+        <p class="card-description">
+          Dividing the code into logical modules, using design patterns to improve readability, testability and support of the application.
+        </p>
+        <a href="https://blog.pixelfreestudio.com/best-practices-for-modular-code-design/#:~:text=Modular%20code%20design%20is%20all,easy%2Dto%2Dunderstand%20code." class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Clean and Maintainable Code</h2>
+        <p class="card-description">
+          Compliance with the DRY (Don’t Repeat Yourself) principles, use of comments and documentation to facilitate the support and development of the project.
+        </p>
+        <a href="https://flatirons.com/blog/how-to-write-maintainable-code/#:~:text=Best%20practices%20for%20clean%20and,and%20maintainability%20through%20rigorous%20testing." class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Naming Methodology (e.g. BEM)</h2>
+        <p class="card-description">
+          Using a clear class naming system (like BEM) to organize CSS, which helps to avoid conflicts and makes it easier to maintain styles.
+        </p>
+        <a href="https://medium.com/swlh/naming-conventions-101-for-developers-8997bb96fd60" class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Image Optimization</h2>
+        <p class="card-description">
+          Using modern formats (e.g. WebP), srcset and &lt;picture&gt; attributes for responsive images, which improves loading speed and display quality.
+        </p>
+        <a href="https://web.dev/learn/performance/image-performance" class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Asynchronous Resource Loading</h2>
+        <p class="card-description">
+          Using async and defer attributes for scripts to avoid blocking page rendering and improve performance.
+        </p>
+        <a href="https://web.dev/learn/performance/optimize-resource-loading#:~:text=async%20and%20defer%20allow%20external%20scripts%20to,inline%20scripts)%20with%20type=%22module%22%20are%20deferred%20automatically.&text=Scripts%20loaded%20with%20async%20are%20parsed%20and,same%20time%20as%20the%20browser's%20DOMContentLoaded%20event." class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Web Application Security</h2>
+        <p class="card-description">
+          Implementing security measures (Content Security Policy, XSS/CSRF protection, using HTTPS) to ensure data and user safety.
+        </p>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security" class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Automated Testing</h2>
+        <p class="card-description">
+          Implementing unit tests, end-to-end testing, and CI/CD integration to detect and fix errors in a timely manner.
+        </p>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Automated_testing" class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">SEO Optimization</h2>
+        <p class="card-description">
+          Proper use of meta tags, structured data (schema.org), friendly URLs, and other methods to increase the visibility of the site in search engines.
+        </p>
+        <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide#:~:text=Organize%20your%20site,Stay%20informed%20and%20ask%20questions" class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Using API and AJAX</h2>
+        <p class="card-description">
+          Integrating with external services and updating content on the page without a full reload to improve user experience.
+        </p>
+        <a href="https://medium.com/@peymaan.abedinpour/experimenting-with-ajax-and-apis-a-comprehensive-guide-for-beginners-d2fc091cb8d7#:~:text=When%20you%20use%20AJAX%20and,experience%20without%20constant%20page%20reloads." class="read-more-button">Read More</a>
+        <div class="card-checkbox">
+          <label>
+            <input type="checkbox" />
+            <span>Done</span>
+          </label>
+        </div>
+      </div>
+    </section>
+    <section class="summary-section">
+        <p id="checkbox-summary">Steps to success: 0 out of 16</p>
+        <div class="progress-bar">
+          <div class="progress" id="progress"></div>
+        </div>
+        <p id="feedback-message"></p>
+        <div id="reward-container"></div>
+      </section>
+  </main>
+  <footer class="footer">
+    <p> 2025 Dmitry Prytkov.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

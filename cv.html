@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Author - Dmitry Prytkov</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="cv.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Dmitry Prytkov - Author Page</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="practises.html">Practises</a></li>
+        <li><a href="author.html" class="active">Author</a></li>
+        <li><a href="mystery.html">Mystery Page</a></li>
+      </ul>
+    </nav>
+    <div class="mode-toggle">
+      <label class="switch">
+        <input type="checkbox" id="modeToggle">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </header>
+  <main class="main-content">
+    <section id="author-cv" class="intro-section fade-on-scroll">
+      <h2>Curriculum Vitae</h2>
+      <div class="cv-container">
+        <div class="author-photo">
+          <img src="images/Me.jpg" alt="Dmitry Prytkov" />
+        </div>
+        <div class="author-info">
+          <p>
+            <strong>Location:</strong> Perth, Australia<br/>
+            <strong>Phone:</strong> (Placeholder) <br/>
+            <strong>Email:</strong> (Placeholder) <br/>
+          </p>
+          <p>
+            I am a finance and trading specialist with extensive experience in stock and commodity markets. 
+            I have a solid academic background in Economics and Finance, 
+            and I am currently pursuing a Master’s degree in Information Technologies to be able open new FinTech horisons with new technical skills.
+          </p>
+          <p>
+            Throughout my career, I have managed trading desks, researched different algorithms, and supervised the creation of various trading bots.
+            My roles have ranged from being a Commodity-Trader and Trader-Analyst 
+            to managing complex projects in algorithmic trading and Software Developer.
+          </p>
+          <p>
+            I am highly motivated and detail-oriented, continuously seeking for new opportunities in FinTech and Quantative Trading.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="timeline-section" class="interactive-section fade-on-scroll">
+      <h2>My Career Timeline</h2>
+      <div class="timeline-container">
+        <div class="timeline-item" data-id="exp1">
+          <div class="timeline-date">2018 - 2022</div>
+          <div class="timeline-content">
+            <h3>HSE University</h3>
+            <p>Bachelors in Economics and Finance</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-id="exp2">
+          <div class="timeline-date">2020 - 2021</div>
+          <div class="timeline-content">
+            <h3>Humboldt-Universität zu Berlin</h3>
+            <p>ERASMUS Student Exchange (B.Sc. Economics)</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-id="exp3">
+          <div class="timeline-date">2021 - 2022</div>
+          <div class="timeline-content">
+            <h3>OSTC - ATON</h3>
+            <p>Commodity-Trader</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-id="exp4">
+          <div class="timeline-date">2022 - 2023</div>
+          <div class="timeline-content">
+            <h3>AST</h3>
+            <p>Algorithmic-Trader</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-id="exp5">
+          <div class="timeline-date">2023 - 2025</div>
+          <div class="timeline-content">
+            <h3>University of Western Australia</h3>
+            <p>Masters of Informational Technologies</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-id="exp6">
+          <div class="timeline-date">2024 - 2025</div>
+          <div class="timeline-content">
+            <h3>AASYP 360</h3>
+            <p>Web-Developer</p>
+          </div>
+        </div>
+      </div>
+      <div id="timeline-details"></div>
+    </section>
+    <section id="skills-section" class="interactive-section fade-on-scroll">
+      <h2>My Skills</h2>
+      <div style="max-width: 600px; margin: 0 auto;">
+        <canvas id="skillsRadarChart" width="400" height="400"></canvas>
+      </div>
+    </section>
+    <section id="languages-section" class="interactive-section fade-on-scroll">
+      <h2>Languages</h2>
+      <div class="language-bars">
+        <div class="language-bar" data-level="90" data-lang="English - C1. IELTS 7.0">
+          <span class="language-name">English (C1)</span>
+          <div class="bar-fill"></div>
+        </div>
+        <div class="language-bar" data-level="100" data-lang="Russian - Native">
+          <span class="language-name">Russian (Native)</span>
+          <div class="bar-fill"></div>
+        </div>
+        <div class="language-bar" data-level="40" data-lang="German - Basic">
+          <span class="language-name">German (Basic)</span>
+          <div class="bar-fill"></div>
+        </div>
+      </div>
+    </section>
+    <section id="hobbies-section" class="interactive-section fade-on-scroll">
+      <h2>My Hobbies</h2>
+      <div class="hobbies-container">
+        <div class="hobby-item">
+          <img src="images/tennis.png" alt="Tennis" />
+          <p>Tennis</p>
+        </div>
+        <div class="hobby-item">
+          <img src="images/cyber.png" alt="Cybersecurity" />
+          <p>Cybersecurity</p>
+        </div>
+        <div class="hobby-item">
+            <img src="images/invest.png" alt="Investments" />
+            <p>Investments</p>
+        </div>
+        <div class="hobby-item">
+            <img src="images/hockey.png" alt="Hockey" />
+            <p>Hockey</p>
+        </div>
+        <div class="hobby-item">
+          <img src="images/fencing.png" alt="Fencing" />
+          <p>Fencing</p>
+        </div>
+        <div class="hobby-item">
+          <img src="images/wine.png" alt="Wine" />
+          <p>Wine</p>
+        </div>
+      </div>
+    </section>
+    <section id="references" class="summary-section">
+      <h2>References</h2>
+      <p><strong>Sources used in preparation of this assignment:</strong></p>
+      <ul>
+        <li>My Resume PDF (as a reference for content placeholders).</li>
+        <li>AI Assistance (Deepai by DeepAi Inc.) for generating images.</li>
+        <li>AI Assistance (ChatGPTo1 by OpenAI) for code examples and structure advice.</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <p> 2025 Dmitry Prytkov.</p>
+  </footer>
+</body>
+</html>

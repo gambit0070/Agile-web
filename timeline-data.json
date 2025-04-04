@@ -1,0 +1,26 @@
+{
+    "exp1": {
+      "title": "HSE University (2018 - 2022)",
+      "details": "Bachelor's of Economics and Finance. \nGPA 73.6%. \nRussia. \nSaint-petersburg"
+    },
+    "exp2": {
+      "title": "Humboldt-Universität zu Berlin (2020 - 2021)",
+      "details": "ERASMUS Student Exchange. \nGermany. \nBerlin."
+    },
+    "exp3": {
+    "title": "OSTC - ATON (2021 - 2022)",
+    "details": "Commodity-Trader.\nRanked in the top 2.4% of candidates who successfully completed the recruitment program.\nSpecialized in natural gas, gasoil, and cocoa commodities.\nExcelled in calendar spreads trading, earning 7x the monthly standard on trading bot patterns."
+    },
+    "exp4": {
+      "title": "AST (2022 - 2023)",
+      "details": "Supervised the creation and testing of 14 trading bots for various purposes. \nAchieved an average total profit of 26% across all bots."
+    },
+    "exp5": {
+      "title": "University of Western Australia (2023 - 2025)",
+      "details": "Masters of Informational Technology"
+    },
+    "exp6": {
+      "title": "AASYP 360 (2024 - 2025)",
+      "details": "Developed a full document management application from scratch. \nKey features include: \nFile upload and organization. \nSorting and quick search with tag-based filtering. \nDocument preview and multi-layer permissions. \nControl rules for different user roles. \nTwo-step authentication."
+    }
+}
